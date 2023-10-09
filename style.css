@@ -13,34 +13,56 @@ header {
 .flex-container {
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-bar {
-    height: 50px;
-    width: 1000px;
-    background-color: #DAA520;
-  
 
+
+.nav-bar {
     
-    
+    width: 1000px;
+    padding: 25px;
+    background-color: #DAA520;
+    border: dotted 3px black;
 }
 
 .blue {
-    height: 600px;
+    padding: 50px;
     background-color: #02008B ;
 }
 
 .hero {
     background-color: #EE82EE;
     height: 450px;
-    width: 800px;
-   
+    width: 700px;
+    border: dotted 3px black;
+}
 
+
+.white {
+    padding: 50px;
+    width: 1000px
+   
+    background-color: white;
+}
+
+.grey {
+    padding: 50px
+    background-color: #D3D3D3;
+}
+
+.blu-container {
+    width: 700px;
+    background-color: #1D90FF;
+    height: 450px;
+    border: dotted 3px black;
 
 }
 
-.flex-box {
-    justify-content: center;
-    align-items: center;
+.pink {
+    width: 300px;
+    background-color: #FFC0CB;
+    height: 450px;
+    border: dotted 3px black;
 }
