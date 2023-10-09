@@ -24,12 +24,20 @@ header {
 }
 
 .flex-link {
+    width: 600px;
+    height: 50px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: space-around; */
+    justify-content: center;
+    align-items: center;   
 }
 
+.prova {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 20px;
+}
 
 
 li {
@@ -38,21 +46,21 @@ li {
 
 .nav-logo {
     border-right: dotted 3px black;
-    width: 200px;
-    height: 50px;
 }
 
 .nav-login { 
-    border-left: dotted 3px black;
-    width: 200px;
+    border-left: dotted 3px black;  
+}
+
+.nav-spacing {
     height: 50px;
+    width: 200px;
 }
 
 .login-flex {
     display: flex;
     align-items: center;
     justify-content: end;
-    
 }
 
 
@@ -61,52 +69,53 @@ li {
     height: 50px;
     padding: 25px;
     background-color: #DAA520;
-    border: dotted 3px black;
 }
 
 .blue {
-    padding: 50px;
     background-color: #02008B ;
 }
 
 .hero {
     background-color: #EE82EE;
-    height: 450px;
     width: 700px;
     border: dotted 3px black;
 }
 
+.box-height {
+    height: 450px;
+}
+
+.black-border {
+    border: dotted 3px black;
+
+}
 
 .white {
-    padding: 50px;
     background-color: white;
 }
 
 .grey {
-    padding: 50px;
     background-color: #D2D2D2;
+}
+
+.padding {
+    padding: 50px;
 }
 
 .blu-container {
     width: 600px;
     background-color: #1D90FF;
-    height: 450px;
-    border: dotted 3px black;
-
 }
 
 .pink {
     width: 400px;
     background-color: #FFC0CB;
-    height: 450px;
-    border: dotted 3px black;
+
 }
 
 .green {
     width: 1000px;
-    height: 450px;
     background-color: #228B22;
-    border: dotted 3px black;
 }
 
 .black {
@@ -116,15 +125,12 @@ li {
 
 .arancione {
     width: 400px;
-    height: 450px;
     background-color: #F08080;
-    border: dotted 3px black;
 }
 
 
 .light-green {
     width: 150px;
-    height: 450px;
     background-color: #20B2AA;
     border: dotted 3px rgb(255, 255, 255);
 }
@@ -147,5 +153,4 @@ footer {
 .box {
     background-color: #FFB6C1;
     padding: 5px;
-    border: dotted 3px black;
 }
