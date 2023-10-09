@@ -17,11 +17,22 @@ header {
     align-items: center;
 }
 
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li {
+    list-style-type: none
+}
+
 
 
 .nav-bar {
-    
     width: 1000px;
+    height: 50px;
     padding: 25px;
     background-color: #DAA520;
     border: dotted 3px black;
@@ -42,18 +53,16 @@ header {
 
 .white {
     padding: 50px;
-    width: 1000px
-   
     background-color: white;
 }
 
 .grey {
-    padding: 50px
-    background-color: #D3D3D3;
+    padding: 50px;
+    background-color: #D2D2D2;
 }
 
 .blu-container {
-    width: 700px;
+    width: 600px;
     background-color: #1D90FF;
     height: 450px;
     border: dotted 3px black;
@@ -61,8 +70,56 @@ header {
 }
 
 .pink {
-    width: 300px;
+    width: 400px;
     background-color: #FFC0CB;
     height: 450px;
+    border: dotted 3px black;
+}
+
+.green {
+    width: 1000px;
+    height: 450px;
+    background-color: #228B22;
+    border: dotted 3px black;
+}
+
+.black {
+    padding: 10px 0px 50px 0px;
+    background-color: #23272A;
+}
+
+.arancione {
+    width: 400px;
+    height: 450px;
+    background-color: #F08080;
+    border: dotted 3px black;
+}
+
+
+.light-green {
+    width: 150px;
+    height: 450px;
+    background-color: #20B2AA;
+    border: dotted 3px rgb(255, 255, 255);
+}
+
+footer {
+    padding: 10px;
+    background-color: #23272A;
+}
+
+.footer-box {
+
+    width: 1000px;
+    height: 70px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background-color: #FFB6C1;
+    padding: 5px;
     border: dotted 3px black;
 }
