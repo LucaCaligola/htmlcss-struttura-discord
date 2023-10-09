@@ -1,0 +1,46 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ADD8E6;
+    height: 90px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-bar {
+    height: 50px;
+    width: 1000px;
+    background-color: #DAA520;
+  
+
+    
+    
+}
+
+.blue {
+    height: 600px;
+    background-color: #02008B ;
+}
+
+.hero {
+    background-color: #EE82EE;
+    height: 450px;
+    width: 800px;
+   
+
+
+}
+
+.flex-box {
+    justify-content: center;
+    align-items: center;
+}
